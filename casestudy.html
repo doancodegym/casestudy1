@@ -9,15 +9,64 @@
     <script src="option.js"></script>
 
 </head>
-<body>
-<table style="border-collapse: separate ; width: 25% "  >
+<body background="4.jpg">
+<div id="wrapper">
+    <div id="head" class="clearfix">
+        <div class="wrapper_container">
+            <div id="logo">
+                <a href="">
+                    <img src="logo.png">
+                </a>
+            </div>
+            <ul id="main_menu">
+                <li><a href="">Trang chủ</a></li>
+                <li>
+                    <a href="">Quản lý</a>
+                    <ul class="sub_menu">
+                        <li><a href="">Nhân viên</a>
+                            <ul class="sub_menu">
+                                <li><a href="">Hàng nhập</a></li>
+                                <li><a href="">Hàng bán</a>
+                                    <ul class="sub_menu">
+                                        <li><a href="">Áo Nam</a></li>
+                                        <li><a href="">Áo Nữ</a></li>
+                                        <li><a href="">Quần Nam</a></li>
+                                        <li><a href="">Quần Nữ</a></li>
+                                        <li><a href="">Phụ Kiện</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="">Thanh Toán</a></li>
+                                <li><a href="">Thống Kê</a></li>
+                                <li><a href="">Lưu Kho</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">FanPage</a></li>
+                        <li><a href="">Thư Viện</a></li>
+                        <li><a href="">Thông Báo</a></li>
+                        <li><a href="">Tài Khoản</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Sản Phẩm</a></li>
+                <li><a href="">Quảng Cáo</a></li>
+                <li><a href="">App Shop</a></li>
+                <li><a href="">Tin tức</a></li>
+                <li><a href="">Khuyến mãi</a></li>
+            </ul>
+            <a href="" >Đăng xuất >></a>
+        </div>
+    </div>
+    <br>
+    <br>
+<table style="border-collapse: separate ; width: 50% "  >
     <tr>
         <td><p>Tên sản phẩm : </p></td>
         <td><input id="addname" /></td>
+        <td><p>Hình ảnh : <input id="addimage" /></p></td>
     </tr>
     <tr>
         <td><p>Mã sản phẩm : </p></td>
         <td><input id="addcode" /></td>
+        <td rowspan="4"><p>Mô tả :</p><textarea rows="17" cols="40" id="addinfo" ></textarea></td>
     </tr>
     <tr>
         <td><p>Hạn sử dụng : </p></td>
@@ -36,5 +85,18 @@
 <button onclick="demo.add()">Thêm sản phẩm</button><br/><br/>
 <button onclick="demo.display()">Danh sách sản phẩm</button><br/>
 <div id="result"></div>
+    <div id="infoimage"></div>
+    <div id="info" style="width: 50% ; font: caption"></div>
+</div>
+    <div id="footer">
+        <div class="wrapper_container">
+            <div class="info" >
+                <p>Nguyễn Hồng Đoàn</p>
+                <p>Lớp : C0220I1</p>
+                <p>Bài Case Study 1</p>
+                <p>Email:nguyenhongdoan14@gmail.com</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

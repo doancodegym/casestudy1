@@ -1,10 +1,12 @@
-let Product = function(nameProduct,codeProduct,expiryDate,amountProduct,priceProduct) {
+let Product = function(nameProduct,codeProduct,expiryDate,amountProduct,priceProduct,imageProduct,infoProduct) {
 
     this.nameProduct = nameProduct;
     this.codeProduct = codeProduct;
     this.expiryDate = expiryDate;
     this.amountProduct = amountProduct;
     this.priceProduct = priceProduct;
+    this.imageProduct = imageProduct;
+    this.infoProduct = infoProduct;
     this.getName = function () {
         return this.nameProduct;
     }
