@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="product.js"></script>
+    <script src="manager.js"></script>
+    <link rel="stylesheet" href="casestudy.css">
+    <script src="option.js"></script>
+
+</head>
+<body>
+<table style="border-collapse: separate ; width: 25% "  >
+    <tr>
+        <td><p>Tên sản phẩm : </p></td>
+        <td><input id="addname" /></td>
+    </tr>
+    <tr>
+        <td><p>Mã sản phẩm : </p></td>
+        <td><input id="addcode" /></td>
+    </tr>
+    <tr>
+        <td><p>Hạn sử dụng : </p></td>
+        <td><input id="addexpiry" /></td>
+    </tr>
+    <tr>
+        <td><p>Số lượng : </p></td>
+        <td><input id="addamount" /></td>
+    </tr>
+    <tr>
+        <td><p>Đơn giá : </p></td>
+        <td><input id="addprice" /></td>
+    </tr>
+</table>
+
+<button onclick="demo.add()">Thêm sản phẩm</button><br/><br/>
+<button onclick="demo.display()">Danh sách sản phẩm</button><br/>
+<div id="result"></div>
+</body>
+</html>
