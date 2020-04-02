@@ -9,5 +9,6 @@ function checklogin(){
         document.login.checkpass.focus();
         return false;
     }
+    window.location="casestudy.html";
     return true;
 }
