@@ -35,7 +35,7 @@ let Manager = function () {
                     "<td id = 'priceEdit"+i+"'>" + listProduct[i].priceProduct+"</td>"+
                     "<td><img src='edit-png-6.png' width='30px'; height='30px' align='center' onclick='OptionList.editList("+i+")' title ='Sửa thông tin'>"+
                     " <img src='delete.png' width='30px'; height='30px' align='center' onclick='OptionList.deleteList("+i+")' title ='Xóa thông tin'>" +
-                    "<img src='info.png' width='30px'; height='30px' align='center' onclick='OptionList.info("+i+")' title ='Xóa thông tin'></td>";
+                    "<img src='info.png' width='30px'; height='30px' align='center' onclick='OptionList.info("+i+")' title ='Xem chi tiết'></td>";
                 t = t + "</tr>";
             }
         }
