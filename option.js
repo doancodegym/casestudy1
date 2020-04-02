@@ -20,11 +20,8 @@ let Option = function () {
         let x = "";
         x = x + "<br>";
         x = x + "<h2>Chi tiết sản phẩm</h2>";
-        x = x + listProduct[i].infoProduct;
+        x = x + "<img src='"+listProduct[i].imageProduct+"' style='width:350px;height:400px' ><br>" + listProduct[i].infoProduct;
         document.getElementById("info").innerHTML= x;
-        let y ="";
-        y = y + '<img src="listProduct[i].imageProduct">';
-        document.getElementById("imageinfo").innerHTML= y;
     }
 }
 
