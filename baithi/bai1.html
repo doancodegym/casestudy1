@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function findMax() {
+        let score = new Array();
+        let x = Number(prompt('Nhập số lượng phần tử :'));
+        for (i =0;i<x ;i++){
+            let y = Number(prompt('Nhập phần tử thứ '+i));
+            score[i]= y;
+        }
+        let max = 0;
+        for (j=0;j<score.length;j++){
+            if(score[j]>=max){
+                max = score[j];
+            }
+        }
+        return max;
+    }
+    document.write(findMax());
+</script>
+</body>
+</html>

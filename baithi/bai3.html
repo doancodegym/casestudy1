@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function isFibonacci(num){
+        let a = 1;
+        let b = 0;
+        let c;
+        while(a+b<=num){
+            a += b;
+            c = a;
+            b = c;
+        }
+        if(a===num){
+            return true;
+        }else {
+            return false;
+        }
+    }
+</script>
+</body>
+</html>

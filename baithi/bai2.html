@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function tryRemoveFromArray() {
+        let arr = new Array();
+        let x = Number(prompt('Nhập số lượng phần tử'));
+        for(i=0;i<x;i++){
+            let y = Number(prompt('Nhập phần tử thứ '+i));
+            arr[i] = y;
+        }
+        let val = Number(prompt('Nhập số cần kiểm tra'));
+        for (j=0;j<arr.length;j++){
+            if(arr[j]==val){
+                arr.splice(j,1)
+            }
+        }
+        return arr;
+    }
+    document.write(tryRemoveFromArray());
+</script>
+</body>
+</html>
